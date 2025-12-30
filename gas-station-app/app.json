@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Gas Finder",
+    "slug": "gas-finder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#007AFF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anthonymartinez.gasfinder",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need your location to find nearby gas stations and show you the best prices in your area."
+      }
+    },
+    "assetBundlePatterns": ["**/*"],
+    "extra": {
+      "eas": {
+        "projectId": "41ae45a0-e713-4703-b1e7-29ecfd9f590a"
+      }
+    }
+  }
+}
