@@ -47,13 +47,6 @@ npm install
 npx expo start
 ```
 
-## 🔑 Environment Variables
-
-Create `.env` in `gas-finder-backend/`:
-```
-GOOGLE_PLACES_API_KEY=your_google_api_key_here
-```
-
 ## 📱 Running the App
 
 1. Start backend server (`python app.py`)
